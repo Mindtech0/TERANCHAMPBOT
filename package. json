@@ -1,6 +1,7 @@
 {
-  "name": "real-whatsapp-bot-backend",
+  "name": "whatsapp-bot-backend",
   "version": "1.0.0",
+  "description": "WhatsApp Web bot backend",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -8,8 +9,7 @@
   "dependencies": {
     "express": "^4.18.2",
     "qrcode": "^1.5.1",
-    "socket.io": "^4.7.2",
-    "whatsapp-web.js": "^1.22.1",
-    "dotenv": "^16.3.1"
+    "socket.io": "^4.7.5",
+    "whatsapp-web.js": "^1.23.0"
   }
 }
